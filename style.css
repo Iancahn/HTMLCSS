@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fullblock {
+    width: 99vw;
+    height: 99vh;
+    margin: auto;
+    background-color: rgb(223, 223, 223);
+    border: 1px solid black;
+}
+
+.smallblock {
+    background-color: orange;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.purple {
+    background-color: purple;
+}
+
+#static {}
+
+#relative {
+    position: relative;
+    left: 205px;
+    bottom: 205px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    height: 100px;
+}
+
+#abso-checker {
+    position: relative;
+}
+
+#absolute {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+#sticky {
+    position: sticky;
+    top: 0px;
+}

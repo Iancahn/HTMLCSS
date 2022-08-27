@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML and CSS practice</title>
+</head>
+
+<body>
+    <div class='fullblock'>
+        <h2>This is static block</h2>
+        <div class="smallblock" id="static">
+            <h2>This is static</h2>
+            <p>This is the default positioning</p>
+        </div>
+    </div>
+    <div class='fullblock'>
+        <h2>This is relative block</h2>
+        <div class="smallblock" id="relative">
+            <h2>This is relative</h2>
+            <p>Position switched around RELATIVE to original position</p>
+        </div>
+    </div>
+    <div class='fullblock'>
+        <h2>This is fixed block</h2>
+        <div class="smallblock" id="fixed">
+            <h2>This is fixed</h2>
+            <p>Position fixes element on viewport, will always be in viewport</p>
+        </div>
+    </div>
+    <div class='fullblock purple'>
+        <h2>This is absolute block,relative parent works best</h2>
+        <div id="abso-checker">
+            <div class="smallblock" id="absolute">
+                <h2>This is absolute</h2>
+                <p>Position switches around absolutely, relative on parent element with position prop applied(except
+                    static).</p>
+            </div>
+        </div>
+    </div>
+    <div class='fullblock'>
+        <h2>This is sticky block</h2>
+        <div class="smallblock" id="sticky">
+            <h2>This is sticky</h2>
+            <p>Position switched around RELATIVE to original position</p>
+        </div>
+    </div>
+    <div class='fullblock'>
+        <h2>This is static test block</h2>
+        <div class="smallblock" id="static">
+            <h2>This is static</h2>
+            <p>This is the default positioning</p>
+        </div>
+    </div>
+    <div class='fullblock'>
+        <h2>This is static test block</h2>
+        <div class="smallblock" id="static">
+            <h2>This is static</h2>
+            <p>This is the default positioning</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
